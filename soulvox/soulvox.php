@@ -95,7 +95,7 @@
     <hr>
     <!--Youtube embed-->
     <div class="col-12 embed-responsive embed-responsive-16by9" id="video">
-      <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/i-WqfatbMYk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/yCJcAtJzMYY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <!--End of youtube embed-->
   </div>

@@ -5,7 +5,7 @@
   define('NAVIGATION_3', 'Repertoár');
   define('NAVIGATION_4', 'Kapcsolat');
   define('CAROUSEL_H3', 'Egy zenekar bármilyen alkalomra');
-  define('JUMBOTRON', 'Egy stílusos, lendületes, fiatalos zenekar, amely vállal koncerteket, esűvői-, fesztiváli fellépéseket.');
+  define('JUMBOTRON', 'Stílusos, lendületes, fiatalos.');
   define('JUMBOTRON_BUTTON', 'Tagok');
   define('ABOUT_TITLE', 'Rólunk');
   define('ABOUT_Q1', 'Fiatalos egyben színvonalas zenekart keres az esküvőjére?');
