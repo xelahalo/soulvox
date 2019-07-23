@@ -75,7 +75,7 @@
       </div>
       <div class="jumbotron_buttons col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
         <a href="#band"><button type="button" class="btn btn-outline-secondary btn-lg"><?php echo MEMBERS; ?></button></a>
-        <a href="#prices"><button type="button" class="btn btn-outline-info btn-lg "><?php echo PRICE; ?></button></a>
+        <a href="#prices"><button type="button" class="btn btn-outline-secondary btn-lg "><?php echo PRICE; ?></button></a>
       </div>
     </div>
   </div>
@@ -301,6 +301,9 @@
       </div>
     </div>
     </div>
+</div>
+
+<div class="container-fluid padding">
   <hr class="my-4">
 </div>
 
