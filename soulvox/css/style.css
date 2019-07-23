@@ -1,11 +1,3 @@
-/*
-TODO:
-  szöveg
-  repertoár
-*/
-
-
-
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
 html, body{
@@ -16,9 +8,12 @@ html, body{
   scroll-behavior: smooth;
 }
 
+.navbar, .jumbotron, .card, footer {
+  background: url('background.jpg') black;
+}
+
 .navbar{
   padding: .8rem;
-  background: url('background.jpg');
   border-bottom: 2px solid #DBAB0D;
   color: #d5d5d5;
 }
@@ -66,41 +61,56 @@ html, body{
   padding-bottom: 1rem;
   white-space: nowrap;
 }
+.btn:focus, .btn.active {
+  outline: none !important;
+  box-shadow: none;
+  border: 1px solid;
+}
+
 .btn-default{
   background-color: #DBAB0D;
-  border: 1px solid #DBAB0D;
   color:white;
 }
+
 .btn-default:hover{
   background-color: #E1B401;
-  border: 1px solid #E1B401;
   text-shadow: 1px 1px 15px #000;
 }
+
 .btn-secondary {
   background-color: white;
   border: none;
 }
 
 .jumbotron {
-  padding: 1rem;
+  padding: 0.5rem;
   border-radius: 0;
-  background: url('background.jpg');
   border-top: 2px solid #DBAB0D;
   border-bottom: 2px solid #DBAB0D;
   color: #d5d5d5;
 }
+
+.jumbotron_buttons {
+  text-align:center;
+}
+
 .jumbotron button {
   background-color: #DBAB0D;
   border: none;
   color: white;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
 }
+
 .jumbotron button:hover{
   background-color:#E1B401;
   border: none;
   text-shadow: 1px 1px 15px #000;
 }
-.jumbotron h5 {
+.jumbotron h3 {
   padding-top: 10px;
+  text-align: center;
 }
 
 .padding {
@@ -123,11 +133,11 @@ html, body{
   margin-bottom: 1rem;
 }
 
-.card {
-  background: url('background.jpg');
+.members .card {
   color: white;
+  word-wrap: none;
 }
-.card .card-body {
+.members .card .card-body {
   border-top: 2px solid #DBAB0D;
 }
 .card #lastname {
@@ -150,6 +160,28 @@ html, body{
   font-size: 4em;
   margin: 1rem;
 }
+
+.prices{
+  margin-left: 15%;
+}
+
+.prices .card {
+  word-wrap: none;
+  color: white;
+  max-width: 400px;
+  margin: none;
+}
+.prices .card .card-body {
+  border-top: 2px solid #DBAB0D;
+  min-height: 200px;
+}
+.prices .card #lastname, #price {
+  color: #DBAB0D;
+}
+.prices .card-text .card-title {
+  display: inline;
+}
+
 .social a {
   font-size: 4.5em;
   padding: 3rem;
@@ -178,7 +210,6 @@ html, body{
   margin-top: 6rem;
 }
 footer {
-    background: url('background.jpg');
     border-top: 2px solid #DBAB0D;
     color: #d5d5d5;
 }
@@ -240,8 +271,20 @@ hr.light-100 {
     margin-top: .8rem;
     margin-bottom: 1rem;
   }
+
+  #dis{
+    display: none;
+  }
+  .prices .card #price {
+    color:white;
+  }
+
+  .prices .card .card-body {
+    border-top: 2px solid #DBAB0D;
+    min-height: 150px;
+  }
 }
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   .navbar #logo{
     position: absolute;
     width: 27%;
@@ -260,6 +303,10 @@ hr.light-100 {
     white-space: nowrap;
 
   }
+
+  .navbar {
+    padding:none;
+  }
   .carousel-caption.btn {
     font-size: 95%;
     padding: 8px 14px;
@@ -273,6 +320,23 @@ hr.light-100 {
   }
   .quote {
     margin-top: 1rem;
+  }
+
+  .prices{
+    margin-left: 0%;
+  }
+
+  .prices .card{
+    margin:none;
+    max-width: none;
+    width: 100%;
+  }
+
+  #dis{
+    display: inline;
+  }
+  .prices .card #price {
+    color:#DBAB0D;
   }
 }
 @media (max-width: 576px) {
@@ -302,7 +366,7 @@ hr.light-100 {
 }
 
 /*---Logo fix---*/
-@media (max-width: 840px) {
+@media (max-width: 1000px) {
   .navbar #logo{
     position: absolute;
     width: 27%;

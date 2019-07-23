@@ -32,8 +32,8 @@
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active"><a class="nav-link" href="#welcome"><?php echo NAVIGATION_1; ?></a></li>
           <li class="nav-item"><a class="nav-link" href="#band"><?php echo NAVIGATION_2; ?></a></li>
-          <li class="nav-item"><a class="nav-link" href="#songs"><?php echo NAVIGATION_3; ?></a></li>
-          <li class="nav-item"><a class="nav-link" href="#connect"><?php echo NAVIGATION_4; ?></a></li>
+          <li class="nav-item"><a class="nav-link" href="#prices"><?php echo NAVIGATION_4; ?></a></li>
+          <li class="nav-item"><a class="nav-link" href="#connect"><?php echo NAVIGATION_5; ?></a></li>
         </ul>
         <!--<a href="?lan=default" class="lan"><img src="css/hun.jpg"></a>
         <a href="?lan=en" class="lan"><img src="css/en.jpg"></a>-->
@@ -42,7 +42,7 @@
   </nav>
 
   <!--Image Slider-->
-  <div class="carousel slide" data-ride="carousel" id="slides" >
+  <div class="carousel slide" data-ride="" id="slides" > <!--carousel-->
     <ul class="carousel-indicators">
       <li data-target="#slides" data-slide-to="0" class="active"></li>
       <li data-target="#slides" data-slide-to="1"></li>
@@ -54,8 +54,8 @@
         <div class="carousel-caption">
           <h1 class="display-2"><span style="color: #DBAB0D;">Soul</span>Vox</h1>
           <h3><?php echo CAROUSEL_H3; ?></h3>
-          <a href="#video"><button type="button" class="btn btn-outline-dark btn-lg btn-secondary">DEMO</button></a>
-          <a href="#connect"><button type="button" class="btn btn-default btn-lg"><?php echo NAVIGATION_4; ?></button></a>
+          <!--<a href="#video"><button type="button" class="btn btn-outline-dark btn-lg btn-secondary">Áraink</button></a>-->
+          <a href="#connect"><button type="button" class="btn btn-default btn-lg"><?php echo NAVIGATION_5; ?></button></a>
         </div>
       </div>
       <div class="carousel-item">
@@ -70,11 +70,12 @@
 <!--Jumbotron-->
   <div class="container-fluid">
     <div class="row jumbotron">
-      <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
-        <h5><?php echo JUMBOTRON; ?></h5>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <h3><?php echo JUMBOTRON; ?></h3>
       </div>
-      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
-        <a href="#band"><button type="button" class="btn btn-outline-secondary btn-lg"><?php echo JUMBOTRON_BUTTON; ?></button></a>
+      <div class="jumbotron_buttons col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <a href="#band"><button type="button" class="btn btn-outline-secondary btn-lg"><?php echo MEMBERS; ?></button></a>
+        <a href="#prices"><button type="button" class="btn btn-outline-info btn-lg "><?php echo PRICE; ?></button></a>
       </div>
     </div>
   </div>
@@ -120,7 +121,7 @@
 </div>
 
 <!--Team-->
-<div class="container-fluid padding">
+<div class="container-fluid padding members">
   <div class="row padding">
 
     <!--Member01-->
@@ -219,7 +220,7 @@
 <div class="container-fluid padding" id="songs">
   <div class="row text-center padding">
     <div class="col-12">
-      <h2><?php echo PEEK_IN_REPERTOIRE; ?></h2>
+      <h1><?php echo PEEK_IN_REPERTOIRE; ?></h1>
     </div>
     <div class="col-xs-12 col-sm-6 col-md-4">
       <i class="fas fa-music"></i>
@@ -230,6 +231,9 @@
       <p>Russell & Barroso - Brazil</p>
       <p>Glenn Miller - In The Mood</p>
       <p>The Blues Brothers Revue</p>
+      <p>Benny Goodman - Sing, Sing, Sing</p>
+      <p>Lalo Schifrin - Mission Impossible</p>
+      <p>Earth, Wind & Fire - September</p>
     </div>
     <div class="col-xs-12 col-sm-6 col-md-4">
       <i class="fas fa-volume-up"></i>
@@ -240,6 +244,9 @@
       <p>Scotty Morris - Go Daddy-O</p>
       <p>George Gershwin - I Got Rythm</p>
       <p>A-ha - Take On Me</p>
+      <p>Duke Ellington - C Jam Blues</p>
+      <p>Ella Fitzgerald - Summertime</p>
+      <p>Pharrell Williams - Happy</p>
     </div>
     <div class="col-xs-12 col-sm-6 col-md-4">
       <i class="fas fa-play"></i>
@@ -250,8 +257,80 @@
       <p>Henry Mancini - Pink Panther</p>
       <p>Bill Haley - Rock Around The Clock</p>
       <p>The Original Dixieland Jazz Band - Tiger Rag</p>
+      <p>Nina Simone - Feelin' Good</p>
+      <p>Sammy Nestico - Blues Machine</p>
+      <p>The Champs - Tequila</p>
     </div>
   </div>
+  <hr class="my-4">
+</div>
+
+<!--Prices-->
+<div class="container-fluid padding prices" id="prices">
+  <!--<div class="row">
+      <div class="col-xs-12 col-sm-8 col-md-4">
+        <img src="css/connect.jpg" class="img-thumbnail">
+      </div>
+      <div class="col-xs-12 col-sm-8 col-md-4">
+        <h2>Ünnepi műsor, esküvői szertartásra</h2>
+        <p>Igény szerint: 5-6 műsorszám<br/>(Nászinduló és egyéb romantikus számok)</p>
+        <p>Irányár: 60.000 Ft plusz útiköltség</p>
+      </div>
+  </div>
+  <div class="row">
+      <div class="col-xs-12 col-sm-8 col-md-4">
+        <img src="css/nyugi.jpg" class="img-thumbnail">
+      </div>
+      <div class="col-xs-12 col-sm-8 col-md-4">
+        <h2>Kiskoncert (kb. 60 perc)</h2>
+        <p>Jazz, pop klasszikusok és feldolgozások<br/>(Az alkalomhoz és a helyszínhez igazított műsorok)</p>
+        <p>Irányár: 120.000 Ft plusz útiköltség</p>
+      </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 col-sm-8 col-md-4">
+        <img src="css/hagi.jpg" class="img-thumbnail">
+      </div>
+      <div class="col-xs-12 col-sm-8 col-md-4">
+        <h2>Nagykoncert (kb. 60 perc)</h2>
+        <p>Jazz, pop klasszikusok és feldolgozások<br/>(Egész estés fúvós showműsor)</p>
+        <p>Irányár: 180.000 Ft plusz útiköltség</p>
+      </div>
+    </div>-->
+    <div class="row padding">
+    <div class="col-md-3">
+      <div class="card text-center">
+        <img src="css/goldred.jpg" class="card-img-top">
+        <div class="card-body">
+          <h4 class="card-title"><span id="lastname">Ünnepi</span><span id="dis"> műsor, esküvői szertartásra</span></h4>
+          <p class="card-text"><span id="dis">Igény szerint: 5-6 műsorszám<br/>(Nászinduló és egyéb romantikus számok)</span></p>
+          <p class="card-text"><span id="dis">Irányár: </span><span id="price">60.000 Ft</span><span id="dis"> plusz útiköltség</span></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card text-center">
+        <img src="css/nyugi.jpg" class="card-img-top">
+        <div class="card-body">
+        <h4 class="card-title"><span id="lastname">Kiskoncert</span><span id="dis"> (kb. 60 perc)</span></h4>
+          <p class="card-text"><span id="dis">Jazz, pop klasszikusok és feldolgozások<br/>(Az alkalomhoz és a helyszínhez igazított műsorok)</span></p>
+          <p class="card-text"><span id="dis">Irányár: </span><span id="price">120.000 Ft</span><span id="dis"> plusz útiköltség</span></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card text-center">
+        <img src="css/hagi.jpg" class="card-img-top">
+        <div class="card-body">
+          <h4 class="card-title"><span id="lastname">Nagykoncert</span><span id="dis"> (kb. 60 perc)</span></h4>
+          <p class="card-text"><span id="dis">Jazz, pop klasszikusok és feldolgozások<br/>(Egész estés fúvós showműsor)</span></p>
+          <p class="card-text"><span id="dis">Irányár: </span><span id="price">180.000 Ft</span><span id="dis"> plusz útiköltség</span></p>
+        </div>
+      </div>
+    </div>
+    </div>
   <hr class="my-4">
 </div>
 
@@ -259,7 +338,7 @@
 <div class="container-fluid padding" id="connect">
   <div class="row text-center padding">
     <div class="col-12">
-      <h2><?php echo CONNECT_TITLE; ?></h2>
+      <h1><?php echo CONNECT_TITLE; ?></h1>
     </div>
     <div class="col-12 social padding">
       <a href="https://www.facebook.com/SoulVox-288534565111143/"><i class="fab fa-facebook"></i></a>
@@ -269,7 +348,7 @@
   </div>
   <div class="row padding">
     <div class="col-md-12 col-lg-6 connect">
-      <h3><?php echo NAVIGATION_4; ?></h3>
+      <h3><?php echo NAVIGATION_5; ?></h3>
       <p><?php echo CONTACTS_NAME; ?></p>
       <p><?php echo CONTACTS_PHONE_NUMBER; ?></p>
       <p><?php echo CONTACTS_EMAIL; ?></p>
@@ -312,8 +391,8 @@
         <ul class="navbar-nav ml-auto">
           <li class="footer-item"><a class="nav-link" href="#welcome"><?php echo NAVIGATION_1; ?></a></li>
           <li class="footer-item"><a class="nav-link" href="#band"><?php echo NAVIGATION_2; ?></a></li>
-          <li class="footer-item"><a class="nav-link" href="#songs"><?php echo NAVIGATION_3; ?></a></li>
-          <li class="footer-item"><a class="nav-link" href="#connect"><?php echo NAVIGATION_4; ?></a></li>
+          <li class="footer-item"><a class="nav-link" href="#prices"><?php echo NAVIGATION_4; ?></a></li>
+          <li class="footer-item"><a class="nav-link" href="#connect"><?php echo NAVIGATION_5; ?></a></li>
         </ul>
       </div>
       <div class="col-12">

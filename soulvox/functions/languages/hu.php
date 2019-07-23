@@ -3,10 +3,12 @@
   define('NAVIGATION_1', 'Bemutatkozás');
   define('NAVIGATION_2', 'A zenekar');
   define('NAVIGATION_3', 'Repertoár');
-  define('NAVIGATION_4', 'Kapcsolat');
+  define('NAVIGATION_4', 'Áraink');
+  define('NAVIGATION_5', 'Kapcsolat');
   define('CAROUSEL_H3', 'Egy zenekar bármilyen alkalomra');
-  define('JUMBOTRON', 'Stílusos, lendületes, fiatalos.');
-  define('JUMBOTRON_BUTTON', 'Tagok');
+  define('JUMBOTRON', 'Stílusos, lendületes, fiatalos');
+  define('MEMBERS', 'Tagok');
+  define('PRICE', 'Áraink');
   define('ABOUT_TITLE', 'Rólunk');
   define('ABOUT_Q1', 'Fiatalos egyben színvonalas zenekart keres az esküvőjére?');
   define('ABOUT_A1', 'A SoulVox együttes áll az ifjú pár rendelkezésére. Szívesen szolgáltatunk zenét a protokoll rendezvény részeként kiszolgálva a házasulandók igényét, hogy a Nagy Nap még varázslatosabb legyen az ünnepeltek és az ünneplők számára egyaránt.');
