@@ -267,36 +267,6 @@
 
 <!--Prices-->
 <div class="container-fluid padding prices" id="prices">
-  <!--<div class="row">
-      <div class="col-xs-12 col-sm-8 col-md-4">
-        <img src="css/connect.jpg" class="img-thumbnail">
-      </div>
-      <div class="col-xs-12 col-sm-8 col-md-4">
-        <h2>Ünnepi műsor, esküvői szertartásra</h2>
-        <p>Igény szerint: 5-6 műsorszám<br/>(Nászinduló és egyéb romantikus számok)</p>
-        <p>Irányár: 60.000 Ft plusz útiköltség</p>
-      </div>
-  </div>
-  <div class="row">
-      <div class="col-xs-12 col-sm-8 col-md-4">
-        <img src="css/nyugi.jpg" class="img-thumbnail">
-      </div>
-      <div class="col-xs-12 col-sm-8 col-md-4">
-        <h2>Kiskoncert (kb. 60 perc)</h2>
-        <p>Jazz, pop klasszikusok és feldolgozások<br/>(Az alkalomhoz és a helyszínhez igazított műsorok)</p>
-        <p>Irányár: 120.000 Ft plusz útiköltség</p>
-      </div>
-  </div>
-  <div class="row">
-    <div class="col-xs-12 col-sm-8 col-md-4">
-        <img src="css/hagi.jpg" class="img-thumbnail">
-      </div>
-      <div class="col-xs-12 col-sm-8 col-md-4">
-        <h2>Nagykoncert (kb. 60 perc)</h2>
-        <p>Jazz, pop klasszikusok és feldolgozások<br/>(Egész estés fúvós showműsor)</p>
-        <p>Irányár: 180.000 Ft plusz útiköltség</p>
-      </div>
-    </div>-->
     <div class="row padding">
     <div class="col-md-3">
       <div class="card text-center">
@@ -324,7 +294,7 @@
       <div class="card text-center">
         <img src="css/hagi.jpg" class="card-img-top">
         <div class="card-body">
-          <h4 class="card-title"><span id="lastname">Nagykoncert</span><span id="dis"> (kb. 60 perc)</span></h4>
+          <h4 class="card-title"><span id="lastname">Nagykoncert</span><span id="dis"> (kb. 120 perc)</span></h4>
           <p class="card-text"><span id="dis">Jazz, pop klasszikusok és feldolgozások<br/>(Egész estés fúvós showműsor)</span></p>
           <p class="card-text"><span id="dis">Irányár: </span><span id="price">180.000 Ft</span><span id="dis"> plusz útiköltség</span></p>
         </div>
